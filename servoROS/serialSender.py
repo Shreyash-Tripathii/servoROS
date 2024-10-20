@@ -6,7 +6,7 @@ import serial
 import math
 import time
 
-ser = serial.Serial('/dev/ttyACM2', 115200)
+ser = serial.Serial('/dev/ttyACM0', 115200)
 
 class PoseSubscriberNode(Node):
     def __init__(self):
